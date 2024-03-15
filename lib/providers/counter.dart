@@ -13,6 +13,7 @@ class CounterState {
 
 class CounterProvider extends InheritedWidget {
   final CounterState state = CounterState();
+  // ignore: use_key_in_widget_constructors
   CounterProvider({required Widget child}) : super(child: child);
 
   static CounterProvider? of(BuildContext context) {

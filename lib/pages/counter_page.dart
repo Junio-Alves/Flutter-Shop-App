@@ -13,7 +13,7 @@ class _CounterPageState extends State<CounterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Exemplo contador"),
+        title: const Text("Exemplo contador"),
       ),
       body: Center(
         child: Column(
