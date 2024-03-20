@@ -51,7 +51,7 @@ class ProductGridItem extends StatelessWidget {
                         }),
                   ),
                 );
-                cart.additem(product);
+                cart.addItem(product);
               },
             ),
           ),
